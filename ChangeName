@@ -1,0 +1,8 @@
+Untuk change display name:
+vim app.json, rename "displayName:Terserah"
+rm -rf android
+rm -rf ios
+react-native eject
+react-native link
+react-native run-android
+
